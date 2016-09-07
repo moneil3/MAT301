@@ -121,8 +121,10 @@ FROM database.table;
 1. What does SQL stand for?  How is it pronounced?
 Structured Query language es que el or sequel
 2. Are SQL commands case-sensitive?  How can you determine? 
+No they are not, this can be determined by
 3. What does DQL stand for?
-4. True or False:  Is it necessary to use the `FROM` clause with the select statement? 
+Data Query Language
+4. True or False:  Is it necessary to use the `FROM` clause with the select statement? TRUE
 5. True or False:  Is it necessary to use a `WHERE` clause?  If not, when and why would you use a `WHERE` clause?
 6. What is the purpose of the `ORDER BY` clause?  What is its default value?  
 7. Is the data in the products table case sensitive?  Should it be case sensitive/insensitive? 
