@@ -170,13 +170,88 @@ WHERE Category_ID=430
 ```
 ***`51 Products related to wine`***
 
-11. Find all product id and names in category 430 manufactured by 428.
-12. How many products in category 430 manufactured by 428?
-13. How many countries make products contained in the store?
-14. How many products are manufactured in the USA?
-15. How many products cost the company less than $10?
-16. How many products cost the company less than $10 and sell for more than $20?
-17. How many products cost the company less than $10 and sell for less than $20?
-18. Which products cost less than $10 and sell for more than $20?
-19. Count all product's that have shipping weight less than 1 pound or greater than 20 pounds.
-20. Create your own query.
+11.Find all product id and names in category 430 manufactured by 428.
+
+```SQL
+SELECT Product_ID, name
+FROM unemath_ONeil.Products
+WHERE Category=430
+AND manufacturer_ID=428
+```
+
+12.How many products in category 430 manufactured by 428?
+
+***`18`***
+
+13.How many countries make products contained in the store?
+
+```SQL
+SELECT Count(Distinct country)
+FROM unemath_ONeil.Products
+```
+***`40`***
+
+14.How many products are manufactured in the USA?
+
+```SQL
+SELECT Count(Products)
+From unemath_ONeil.Products
+Where country='USA'
+```
+***`4091`***
+
+15.How many products cost the company less than $10?
+
+```SQL
+SELECT COUNT(*)
+FROM unemath_ONeil.Products
+WHERE price<10.00
+```
+***`7567`***
+
+16.How many products cost the company less than $10 and sell for more than $20?
+ 
+```SQL
+SELECT *
+FROM unemath_ONeil.Products
+WHERE price<10.00
+AND MSRP>20.00
+```
+***`40`***
+
+17.How many products cost the company less than $10 and sell for less than $20?
+
+```SQL
+SELECT Count(*)
+FROM unemath_ONeil.Products
+WHERE price<10.00
+AND MSRP<20.00
+```
+***`7523`***
+
+18.Which products cost less than $10 and sell for more than $20?
+
+```SQL
+SELECT name
+FROM unemath_ONeil.Products
+WHERE price<10.00
+AND MSRP>20.00
+```
+
+19.Count all product's that have shipping weight less than 1 pound or greater than 20 pounds.
+
+```SQL
+SELECT Count(*)
+FROM unemath_ONeil.Products
+WHERE Ship_weight<1
+OR Ship_weight>20
+```
+***`1106`***
+
+20.Create your own query.
+
+```SQL
+SELECT Count(Distinct manufacturer_ID)
+FROM unemath_ONeil.Products
+WHERE country='USA'
+```
