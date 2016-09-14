@@ -205,7 +205,7 @@ OR product_ID IN (7483, 4939, 3452, 9848, 11293, 12001)
 SELECT *
 FROM unemath_ONeil.Products
 WHERE product_ID NOT BETWEEN 5000 and 6000
-OR product_ID NOT IN (7483, 4939, 3452, 9848, 11293, 12001)
+AND product_ID NOT IN (7483, 4939, 3452, 9848, 11293, 12001)
 ```
 
 7.Find products whose country code is NULL.
