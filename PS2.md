@@ -216,6 +216,12 @@ FROM unemath_ONeil.Products
 WHERE country IS NULL
 ```
 
+```SQL
+SELECT *
+FROM unemath_ONeil
+WHERE country=''
+```
+
 8.Calculuate the shipping volume and report it as 'Volume'.
 
 ```SQL
