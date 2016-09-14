@@ -157,7 +157,15 @@ SELECT 1.35*price AS `Sale Price` FROM Products;
 
 ===
 
-1. Select all products (UPC) made in China whose price is less than $50.
+1.Select all products (UPC) made in China whose price is less than $50.
+
+```SQL
+SELECT UPC
+FROM unemath_ONeil
+WHERE country='China'
+AND price<50
+```
+
 2. Find products with "bird bath" in the description.
 3. Find products whose cost is between $10 and $100.
 4. Find products whose cost is less than or equal to $59.99.
