@@ -166,7 +166,14 @@ WHERE country='China'
 AND price<50
 ```
 
-2. Find products with "bird bath" in the description.
+2.Find products with "bird bath" in the description.
+
+```SQL
+SELECT *
+FROM unemath_ONeil.Products
+WHERE description like '%birdbath%'
+```
+
 3. Find products whose cost is between $10 and $100.
 4. Find products whose cost is less than or equal to $59.99.
 5. Find products whose ID is between 5000 and 6000 or 7483, 4939, 3452, 9848, 11293, 12001.
