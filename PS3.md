@@ -1,6 +1,13 @@
 ## Problem Set 3 
 
 1. Define the terms: relation, tuple, attribute, record, and field.
+
+`Relation-table
+tuple-row
+attribute-column
+record-row
+field- intersection of a column and row'
+
 2. What are keys in a relation?
 
 3. What is a surrogate key and how is it used?
