@@ -2,27 +2,27 @@
 
 1. Define the terms: relation, tuple, attribute, record, and field.
 
-`Relation-table`
+***`Relation-table`***
 
 ***`tuple-row`***
 
-`attribute-column`
+***`attribute-column`***
 
-`record-row`
+***`record-row`***
 
-`field- intersection of a column and row`
+***`field- intersection of a column and row`***
 
 2. What are keys in a relation?
 
-`attributes in a relation that identify a record`
+***`attributes in a relation that identify a record`***
 
 3. What is a surrogate key and how is it used?
 
-`A surrogate key assigns an arbitrary number to a row and has no actual relation to the data. It can be used to replace sensitive information such as social security numbers`
+***`A surrogate key assigns an arbitrary number to a row and has no actual relation to the data. It can be used to replace sensitive information such as social security numbers`***
 
 4. In the following equation, Area = Length x Width, identify the determinant(s).
 
-`length and width`
+***`length and width`***
 
 5. If a relation has no duplicate data, how can you be sure there is always at least one primary key?
 
