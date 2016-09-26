@@ -2,15 +2,15 @@
 
 1. Define the terms: relation, tuple, attribute, record, and field.
 
-`Relation-table
+`Relation-table`
 
-tuple-row
+***`tuple-row`***
 
-attribute-column
+`attribute-column`
 
-record-row
+`record-row`
 
-field- intersection of a column and row`
+`field- intersection of a column and row`
 
 2. What are keys in a relation?
 
@@ -26,11 +26,11 @@ field- intersection of a column and row`
 
 5. If a relation has no duplicate data, how can you be sure there is always at least one primary key?
 
-``
+`...`
 
 6. Give an example of a relation.  Determine a natural key for this relation.
 
-``
+`...`
 
   For question 7 - 8, Consider product *orders*.  In particular, associated with an order is: customer name (first and last), address (street, city, state, zip), phone, email, the products orders (including item, quantity, and price).  
 
