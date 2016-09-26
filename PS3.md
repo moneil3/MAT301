@@ -6,7 +6,7 @@
 tuple-row
 attribute-column
 record-row
-field- intersection of a column and row'
+field- intersection of a column and row`
 
 2. What are keys in a relation?
 
