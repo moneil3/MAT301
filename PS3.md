@@ -41,6 +41,10 @@ Orders
 | Order # | first name | Last name | Street Address | Zip Code | Phone | Email | Product_id | Quantity | Price |
 |---------|------------|-----------|----------------|----------|-------|-------|------------|----------|-------|
 
+Zip Code
+---------------------------
+| Zip Code | City | State |
+---------------------------
 
 8. For customer, could email be used as a primary key?  If so, state why.  Also, if possible to use as a primary key, discuss any disadvantages of using email as a primary key.
 
