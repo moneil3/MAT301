@@ -96,6 +96,8 @@ Cartisian Product
 
 10. Find the natural join between the Faculty and Department relations below.
 
+***`Department`***
+
 S
 --------------
 | A | B |
