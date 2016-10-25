@@ -166,6 +166,11 @@ WHERE country='China'
 AND price<50
 ```
 
+
+__C__
+
+
+
 2.Find products with "bird bath" in the description.
 
 ```SQL
@@ -173,6 +178,12 @@ SELECT *
 FROM unemath_ONeil.Products
 WHERE description like '%birdbath%'
 ```
+
+
+
+__C__
+
+
 
 3.Find products whose cost is between $10 and $100.
 
@@ -182,6 +193,12 @@ FROM unemath_ONeil.Products
 WHERE price BETWEEN 10 AND 100
 ```
 
+
+
+__C__
+
+
+
 4.Find products whose cost is less than or equal to $59.99.
 
 ```SQL
@@ -189,6 +206,14 @@ SELECT *
 FROM unemath_ONeil.Products
 WHERE price <=59.99
 ```
+
+
+
+
+__C__
+
+
+
 
 5.Find products whose ID is between 5000 and 6000 or 7483, 4939, 3452, 9848, 11293, 12001.
 
@@ -199,6 +224,11 @@ WHERE product_ID BETWEEN 5000 and 6000
 OR product_ID IN (7483, 4939, 3452, 9848, 11293, 12001)
 ```
 
+
+__C__
+
+
+
 6.Find products that are not between 5000 and 6000 or 7483, 4939, 3452, 9848, 11293, 12001.
 
 ```SQL
@@ -207,6 +237,13 @@ FROM unemath_ONeil.Products
 WHERE product_ID NOT BETWEEN 5000 and 6000
 AND product_ID NOT IN (7483, 4939, 3452, 9848, 11293, 12001)
 ```
+
+
+
+__C__
+
+
+
 
 7.Find products whose country code is NULL.
 
@@ -222,6 +259,12 @@ FROM unemath_ONeil
 WHERE country=''
 ```
 
+
+__C__
+
+
+
+
 8.Calculuate the shipping volume and report it as 'Volume'.
 
 ```SQL
@@ -230,6 +273,12 @@ AS 'volume'
 FROM unemath_ONeil.Products
 ```
 
+
+
+__C__
+
+
+
 9.Suppose you want to have a 35% markup on all products and sales tax is 7.5%.  Determine the 'Sales Price' of each product.
 
 ```SQL
@@ -237,17 +286,47 @@ SELECT price, ROUND(1.075(price*1.35),2)
 AS sales_price
 FROM unemath_ONeil.Products
 ```
+
+
+__C__
+
+
+
+
 10.True or False: Both conditions when using the OR operator must be true.
 
 ***`False`***
+
+
+__C__
+
+
+
+
 
 11.What is the logical negation of the IN operator?
 
 ***`NOT is the logical negation of the IN operator`***
 
+
+
+__C__
+
+
+
+
+
 12.What is wrong with the folling statement: `SELECT * FROM Products WHERE price BETWEEN 10, 100;
 
 ***`There should be an AND operator between 10 and 100 instead of a comma`***
+
+
+
+__C__
+
+
+
+
 
 13.Select products with length less than 12 inches and sort decsending.
 
@@ -258,6 +337,12 @@ WHERE length<12
 ORDER BY length desc
 ```
 
+
+
+__C__
+
+
+
 14.How many products are there whose price is between $10 and $20?
 
 ```SQL
@@ -266,6 +351,14 @@ FROM unemath_ONeil.Products
 WHERE price BETWEEN 10 AND 20
 ```
 ***`3226`***
+
+
+
+
+__C__
+
+
+
 
 15.How many products are there made in China whose MSRP is between $10 and $20.
 
@@ -277,4 +370,7 @@ AND MSRP BETWEEN 10 AND 20
 ```
 
 ***`2189`***
+
+
+__C__
 
